@@ -1,0 +1,41 @@
+﻿<div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title">Form</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="No"
+                ng-click="cancel()">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div ng-show="working">
+            <div class="d-flex align-items-center">
+                <strong>Please wait...</strong>
+                <div class="spinner-border ml-auto" role="status" aria-hidden="true"></div>
+            </div>
+        </div>
+        <form ng-show="!working">
+            <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" class="form-control" id="inputName"
+                       ng-model="vegetable.name">
+            </div>
+            <div class="form-group">
+                <label for="inputPrice">Price</label>
+                <input type="number" class="form-control" id="inputPrice"
+                       ng-model="vegetable.price">
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                ng-disabled="working"
+                ng-click="cancel()">
+            Cancel
+        </button>
+        <button type="button" class="btn btn-primary"
+                ng-disabled="working"
+                ng-click="submit()">
+            Submit
+        </button>
+    </div>
+</div>

@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoGreen.Domain", "GoGreen.Domain\GoGreen.Domain.csproj", "{4BE86454-DC7D-41EE-B928-3FDF5C9D5E63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoGreen.Infra.EFCore", "GoGreen.Infra.EFCore\GoGreen.Infra.EFCore.csproj", "{783ED6FE-08AB-4F20-8D99-AC3BBB5143DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoGreen.UnitTests", "GoGreen.UnitTests\GoGreen.UnitTests.csproj", "{05E4E061-9560-4A1C-BA79-8157E7CDD128}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoGreen.API", "GoGreen.API\GoGreen.API.csproj", "{AE49B607-C623-4324-8F5C-5F8171F06A59}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GoGreen.Client", "GoGreen.Client\", "{A1D779F1-974F-4190-9B34-D42D74E35F35}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64762"
+		Debug.AspNetCompiler.PhysicalPath = "GoGreen.Client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64762\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64762"
+		Release.AspNetCompiler.PhysicalPath = "GoGreen.Client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64762\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64762"
+		SlnRelativePath = "GoGreen.Client\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{BEE51ABC-3A24-41C0-A509-627568BBBC73}"
+	ProjectSection(SolutionItems) = preProject
+		Deploy.ps1 = Deploy.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BE86454-DC7D-41EE-B928-3FDF5C9D5E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE86454-DC7D-41EE-B928-3FDF5C9D5E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE86454-DC7D-41EE-B928-3FDF5C9D5E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE86454-DC7D-41EE-B928-3FDF5C9D5E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{783ED6FE-08AB-4F20-8D99-AC3BBB5143DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783ED6FE-08AB-4F20-8D99-AC3BBB5143DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783ED6FE-08AB-4F20-8D99-AC3BBB5143DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783ED6FE-08AB-4F20-8D99-AC3BBB5143DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E4E061-9560-4A1C-BA79-8157E7CDD128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E4E061-9560-4A1C-BA79-8157E7CDD128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E4E061-9560-4A1C-BA79-8157E7CDD128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E4E061-9560-4A1C-BA79-8157E7CDD128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE49B607-C623-4324-8F5C-5F8171F06A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE49B607-C623-4324-8F5C-5F8171F06A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE49B607-C623-4324-8F5C-5F8171F06A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE49B607-C623-4324-8F5C-5F8171F06A59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D779F1-974F-4190-9B34-D42D74E35F35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D779F1-974F-4190-9B34-D42D74E35F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D779F1-974F-4190-9B34-D42D74E35F35}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D779F1-974F-4190-9B34-D42D74E35F35}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21805DB0-4BDE-4491-ACAD-094A9A6A0A6A}
+	EndGlobalSection
+EndGlobal
